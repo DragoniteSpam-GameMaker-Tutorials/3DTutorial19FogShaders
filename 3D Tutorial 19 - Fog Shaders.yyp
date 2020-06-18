@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "673326d1-afab-426c-bb3e-faeb23bf2461",
+            "Value": {
+                "id": "c2e635c8-5712-4120-8507-5229ba4957c2",
+                "resourcePath": "shaders\\shd_basic_3d_stuff\\shd_basic_3d_stuff.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "677453a3-6ee4-45d8-bbb6-28056f31582a",
             "Value": {
                 "id": "e9432f52-b0da-4938-b20b-693c8a37c652",
