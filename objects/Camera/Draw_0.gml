@@ -4,8 +4,10 @@ draw_clear(c_black);
 shader_set(shd_basic_3d_stuff);
 var uniform_fog_start = shader_get_uniform(shd_basic_3d_stuff, "fogStart");
 var uniform_fog_end = shader_get_uniform(shd_basic_3d_stuff, "fogEnd");
-shader_set_uniform_f(uniform_fog_start, 500 * abs(sin(current_time / 1000)) + 100);
-shader_set_uniform_f(uniform_fog_end, 1000 * abs(sin(current_time / 1000)) + 500);
+//shader_set_uniform_f(uniform_fog_start, 500 * abs(sin(current_time / 1000)) + 100);
+//shader_set_uniform_f(uniform_fog_end, 1000 * abs(sin(current_time / 1000)) + 500);
+shader_set_uniform_f(uniform_fog_start, 100);
+shader_set_uniform_f(uniform_fog_end, 1000);
 
 // 3D projections require a view and projection matrix
 var camera = camera_get_active();
