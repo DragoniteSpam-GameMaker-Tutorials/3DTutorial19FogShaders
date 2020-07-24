@@ -1,6 +1,6 @@
 # 3D in Game Maker Studio 2 - Fog Shaders
 
-Have you ever wanted something like Unity's Time class in GameMaker? Probably not, but if you have, here's a solution!
+Now that I've covered some of the more important parts of shaders, it's time to jump back into the world of 3D and use one to create a pixel fog effect!
 
 Video tutorial:
 
